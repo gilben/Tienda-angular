@@ -28,12 +28,12 @@
       true,
       140
     ],
-    "member-access": false,
+    "member-access": false, 
     "member-ordering": [
       true,
       {
         "order": [
-          "static-field",
+          "static-field", 
           "instance-field",
           "static-method",
           "instance-method"

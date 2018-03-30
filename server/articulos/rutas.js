@@ -1,4 +1,4 @@
-// JavaScript Document
+ // JavaScript Document
 var express = require('express');
 var BDAgenda = require('../datos/bdtienda.js'),
 	Operaciones = require('../datos/articulosCRUD.js');

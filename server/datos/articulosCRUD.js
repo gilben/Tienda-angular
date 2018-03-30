@@ -1,4 +1,4 @@
-// JavaScript Document
+  // JavaScript Document
 
 var Articulo = require('./articuloModel.js');
 

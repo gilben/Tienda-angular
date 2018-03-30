@@ -1,4 +1,4 @@
-// JavaScript Document
+ // JavaScript Document
 var mongoose = require('mongoose');
 
 var articuloSchema = new mongoose.Schema({

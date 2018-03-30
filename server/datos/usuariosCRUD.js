@@ -1,10 +1,10 @@
-// JavaScript Document
+ // JavaScript Document
 
 var Usuario = require('./usuarioModel.js');
 module.exports.insertarUsuario = function (callback) {
 	let User1 = new Usuario({
-		nombre: "Nombre de usuario 1",
-		email: 'roca@alvaroruiz.cl',
+		nombre: "gcastro",
+		email: 'gcastro@live.com',
 		password: '123456'
 	});
 
@@ -16,7 +16,7 @@ module.exports.insertarUsuario = function (callback) {
 
 module.exports.eliminarUsuario = function (callback) {
 	Usuario.remove({
-		email: 'roca@alvaroruiz.cl'
+		email: 'gcastro@live.com'
 	}, (error) => {
 		if (error) callback(error);
 		callback(null, "Registro del usuario eliminado");

@@ -1,4 +1,4 @@
-// JavaScript Document
+ // JavaScript Document
 
 var mongoose = require('mongoose');
 var usuarioSchema = new mongoose.Schema({

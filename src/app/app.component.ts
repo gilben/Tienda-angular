@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+ import { Component } from '@angular/core';
 import { CarShopingService } from './car-shoping.service';
 import { LoginComponent } from './login/login.component';
 import { DashComponent } from './dash/dash.component';

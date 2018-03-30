@@ -1,4 +1,4 @@
-<div class="loginContainer">
+ <div class="loginContainer">
     <div *ngIf="error" class="alertaLogin">{{error}}</div>
 	<div class="loginTitle">Inicio de Sesión</div>
 	<form name="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
